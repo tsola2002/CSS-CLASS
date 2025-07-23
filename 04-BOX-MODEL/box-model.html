@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        h1{    margin: 0;}
+        .first{
+            background-color: aqua;
+            /* padding-top: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 20px; */
+
+            /* padding: 20px; */
+            /* padding: 10px 30px 40px 20px; */
+            padding: 20px 40px;
+        }
+
+        .second{
+            background-color: pink;
+            /* border-top: 3px solid yellow;
+            border-right: 3px solid red;
+            border-bottom: 3px solid purple;
+            border-left: 3px solid greenyellow; */
+            /* border: 3px double red; */
+
+            border: 20px solid transparent; 
+            border-image-source: url(./star.png);
+            border-image-width: 20px;
+            border-image-repeat: repeat;
+        }
+
+        .third{
+            background-color: lightgreen;
+            /* margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-left: 40px; */
+            /* margin: 20px; */
+            /* margin: 20px 40px; */
+            /* margin: 10px 20px 30px 40px; */
+            
+           
+        }
+
+        .subtext{
+            width: 500px;
+            margin: 0 auto;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Working With Box Model</h1>
+
+    <div class="first">
+        <h1>Padding</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, maxime minus! Dignissimos deleniti earum, consequatur ducimus quasi illum at accusamus! Optio ad consectetur fugit, in culpa sequi reiciendis quisquam cupiditate.
+    </div>
+
+    <div class="second">
+        <h1>Border</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolor reprehenderit voluptatem distinctio quia eos iste eveniet quos repudiandae quibusdam repellat modi, temporibus labore porro dolorum vel earum, inventore laboriosam!
+    </div>
+
+    <div class="third">
+        <div class="subtext">
+            <h1>Margin</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, distinctio. Itaque ullam quibusdam repellendus? Voluptatum, iusto voluptate. Tempora illum fugit, necessitatibus excepturi ex, ut corporis vel aut recusandae sit provident.
+        </div>
+    </div>
+
+</body>
+</html>

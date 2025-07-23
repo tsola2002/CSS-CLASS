@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro To CSS</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+
+      /* root selector */
+      :root{
+        --main-color: aqua;
+        --font-size: 50px;
+      }
+
+     
+
+      /* body {
+            background-color: yellow;
+        } */
+
+      /* TAG SELECTOR */
+      p { background-color: yellow; }
+
+      h1{
+        font-size: var(--font-size);
+      }
+
+      /* ID SELECTOR */
+      #red{ background-color: red; }
+
+      /* CLASS SELECTOR */
+      .pink { background-color: pink; }
+
+      /* GROUPING SELECTOR */
+      h1, h2, h3, h4, h5, h6{
+        background-color: purple;
+      }
+      .italics1, .italics2, .italics3 {
+        background-color: var(--main-color);
+      }
+      /* DESCENDANT SELECTOR */
+      .container p{
+        background-color: pink;
+      }
+      /* PSEUDO SELECTORS */
+      h1:hover {
+        background-color: pink;
+        color: red;
+      }
+      h1:link { color: red; }
+      input:focus { background-color: aqua; }
+      input:disabled { background-color: chocolate;}
+
+     /* PSEUDO ELEMENT */ 
+     h1::after { content: " Selectors"; }
+     h1::first-letter { font-size: 200%; }
+     h2::before { content: "If you want an "; }
+     p::first-line { text-transform: uppercase; }
+     p::selection { background-color:  red; }
+
+     /* ATTRIBUTE SELECTORS */
+     a[href]{ background-color: green; }
+     a[href="info.html"]{ background-color: purple; }
+
+    /* CHILD SELECTOR */
+    body > form > label { background-color: bisque; }
+
+    /* SIBLING SELECTOR */
+    #red + p { background-color: blue; }
+
+    /* EMPTY SELECTOR */
+    .box:empty {
+      width: 100px;
+      height: 100px;
+      background-color: lightgray;
+      border: 2px dashed red;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="box">This has content</div>
+    <div class="box"></div>
+    <div class="box"><!-- this is a html comment --></div>
+    <div class="box"> </div>
+
+    <form action="">
+      <label for="">Name: </label>
+      <input type="text" name="" id="" disabled> <br> <br>
+      <label for="">Age: </label>
+      <input type="text" name="" id=""> <br> <br>
+      <label for="">Address: </label>
+      <input type="text" name="" id="">
+    </form>
+   
+      <a href="index.html">link1</a>
+      <a href="about.html">link2</a>
+      <a href="info.html">link3</a>
+      <a href="contact.html">link4</a>
+    
+    <div class="container">
+      <p>this will be pink</p>
+      <div>
+        <p>this will be grey</p>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsam distinctio dignissimos corporis quo voluptatibus! Esse ad cumque debitis incidunt labore? Error minus asperiores ullam earum nesciunt modi odio sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe libero corrupti culpa laudantium ut voluptatem, rerum quibusdam ad! Tempora vel facilis eligendi aut accusamus labore, vero iure ad laborum quidem.</p>
+    <p class="italics1">italics</p>
+    <p class="italics2">italics</p>
+    <p class="italics3">italics</p>
+    <h1>Introduction to CSS</h1>
+    <h2>Introduction to CSS</h2>
+    <h3>Introduction to CSS</h3>
+    <h4>Introduction to CSS</h4>
+    <h5>Introduction to CSS</h5>
+    <h6>Introduction to CSS</h6>
+    <p>welcome to css</p>
+    <p id="red">I want a red background here</p>
+    <p class="pink">welcome to css</p>
+    <p class="pink">welcome to css</p>
+    <p class="pink">welcome to css</p>
+  </body>
+</html>

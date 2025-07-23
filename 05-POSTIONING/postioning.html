@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        div { border: 1px solid grey; }
+        #parent { position: static; }
+        #A { width: 100px; top: 25px; left: 100px;  }
+        #B {width: 215px; top: 50px; }
+        #C {width: 250px; top: 50px; left: 25px; }
+        #D { width: 225px; top: 65px; }
+        #E {width: 200px; top: 70px; left: 50px; }
+        
+
+        #parent2{ margin-top: 20px;  }
+        #F { width: 100px; top: 25px; left: 100px; position: relative; }
+        #G {width: 215px; top: 50px; position: relative; }
+        #H {width: 250px; top: 50px; left: 25px; position: relative; }
+        #I { width: 225px; top: 65px; position: relative;}
+        #J {width: 200px; top: 70px; left: 50px; position: relative; }
+        #Q {width: 200px; bottom: 70px; right: 50px;  background-color: blueviolet;  position: relative; }
+
+        #parent3{ margin-top: 20px; position: relative;  }
+        #K { width: 100px; top: 25px; left: 100px; position: absolute; background-color: red; opacity: 0.7;}
+        #L {width: 215px; top: 50px; position: absolute; background-color: blue; opacity: 0.7;}
+        #M {width: 250px; top: 50px; left: 25px; position: absolute; background-color: yellow; opacity: 0.7;}
+        #N { width: 225px; top: 65px; position: absolute; background-color: pink; opacity: 0.7;}
+        #O {width: 200px; top: 70px; left: 50px; position: absolute; background-color: orange; opacity: 0.7; }
+
+        header{ background-color: aqua; height: 50px; width: 100%; text-align: center; box-shadow: 5px 5px 3px grey; position: fixed; }
+    </style>
+</head>
+<body>
+        <header>
+            HEADER CONTENT
+        </header>
+        <h1>Postioning in css</h1>
+        <h2>Statically positioned elements</h2>
+        <div id="parent">
+            <div id="A">aaaa</div>
+            <div id="B">bbbb</div>
+            <div id="C">cccc</div>
+            <div id="D">dddd</div>
+            <div id="E">eeee</div>     
+        </div>
+
+        <h2>Relative Positioned Elemnents</h2>
+        <div id="parent2">
+            <div id="F">ffff</div>
+            <div id="G">gggg</div>
+            <div id="H">hhhh</div>
+            <div id="I">iiii</div>
+            <div id="J">jjjj</div>
+            <div id="Q">qqqq</div>
+        </div>
+
+        <h2>Absolute Positioned Elements</h2>
+        <div id="parent3">
+            <div id="K">kkkk</div>
+            <div id="L">llll</div>
+            <div id="M">mmmm</div>
+            <div id="N">nnnn</div>
+            <div id="O">oooo</div>
+        </div>
+        
+</body>
+</html>

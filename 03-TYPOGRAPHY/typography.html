@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography</title>
+    <style>
+        .section1{
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+            /* font-family: "Arial"; */
+            text-decoration: underline solid red;
+            word-spacing: 20px;
+            letter-spacing:  8px;
+            /* text-transform: uppercase; */
+            text-indent: 50px;
+            height: 400px;
+            text-decoration-skip-ink: auto;
+        }
+
+        .section2{
+            text-align: justify;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+        }
+
+        .section3{
+            text-align-last: justify;
+        }
+
+        .vertical {
+            writing-mode: vertical-rl;
+        }
+
+        span {
+            text-combine-upright: all;
+        }
+
+        .parent{
+            height: 200px;
+            overflow: scroll;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Working with Typography in css</h1>
+
+    <p class="vertical">CSS <span>Is</span> Awesome</p>
+    <div class="parent">
+        <p class="section1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur itaque animi velit harum! Eos eligendi velit, quibusdam corporis ullam laudantium?</p>
+    </div>
+    
+
+    <p class="section2">you should go to niit and buy a coffee and some drinks at some meatpie and other refreshments for you come to the class</p>
+
+    <p class="section3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur itaque animi velit harum! Eos eligendi velit, quibusdam corporis ullam laudantium?</p>
+</body>
+</html>
