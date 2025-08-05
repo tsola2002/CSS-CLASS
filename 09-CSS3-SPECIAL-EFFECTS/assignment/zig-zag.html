@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Movement</title>
+    <style>
+        body{ background-color: rgb(15,12,43);
+        color: white;
+        }
+       
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: 2px solid yellow;
+            text-align: center;
+            animation-name: modify;
+            animation-duration: 3s;
+            /* animation-delay: 5s; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-iteration-count: 5; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-fill-mode: forwards; */
+            /* animation-play-state: paused; */
+        }
+        /* THIS DEFINES AN ANIMATION */
+        @keyframes modify {
+            0%{transform: translateX(0px); background-color: red;}
+            20% { transform: translate(200px, 350px); border-radius: 100px;  background-color: yellow;}
+            40% { transform: translate(400px, 0px) rotate(45deg);  border-radius: 0px;background-color: blue;}
+            60% { transform: translate(600px, 350px); background-color: pink;}
+            80% { transform: translate(800px, 0px); background-color: pink;}
+            100% { transform: translate(1000px, 350px);
+            border-color: blue; background-color: red; }
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>DOing Zig Zag Animation</h1>
+    <div class="box1">
+        box1
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css3 transforms</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            transform: translate(30px, 10px);
+            /* transform: translateX(100px); */
+            /* transform: translateY(50px); */
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            transform: rotate(45deg);
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            transform: translate(100px, 10px) 
+            rotate(20deg);
+        }
+        .box4{
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            transform: scale(50%);
+            /* transform: scaleX(2); */
+            /* transform: scaleY(50%); */
+        }
+        .box5{
+            width: 200px;
+            height: 200px;
+            background-color: turquoise;
+            /* transform: skew(-20deg); */
+            transform: skewY(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Working With css3 Transforms</h1>
+
+    <h2>Transform: Translate Effect</h2>
+    <div class="box1"></div>
+    <h2>Transform: Rotate Effect</h2>
+    <div class="box2">box2</div>
+    <h2>transform: Multiple Transforms</h2>
+    <div class="box3"></div>
+    <h2>Transform: Scale Effect</h2>
+    <div class="box4"></div>
+    <h2>Transform: Skew Effect</h2>
+    <div class="box5">skew effect</div>
+    <h2>transform</h2>
+    <div class="box6"></div>
+</body>
+</html>

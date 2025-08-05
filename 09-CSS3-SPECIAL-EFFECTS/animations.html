@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        body{ background-color: rgb(15,12,43);
+        color: white;
+        }
+        .square{ width: 100px; height: 100px; }
+        .box1{
+            background-color: blue;
+            border: 2px solid yellow;
+            text-align: center;
+        }
+        /* THIS DEFINES AN ANIMATION */
+        @keyframes modify {
+            0%{transform: translateX(0px);}
+            100% { transform: translateX(500px);
+            border-radius: 100px;
+            background-color: yellow;
+            border-color: blue; }
+        }
+        /* LINKING THE KEYFRAMES TO YOUR HTML */
+        .moveright {
+            animation-name: modify;
+            animation-duration: 5s;
+            /* animation-delay: 5s; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-iteration-count: 5; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-fill-mode: forwards; */
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+    <h1>Working With Animations</h1>
+    <div class="square box1 moveright">
+        box1
+    </div>
+</body>
+</html>

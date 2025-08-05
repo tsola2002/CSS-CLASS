@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        body{ background-color: rgb(15,12,43);
+        color: white;
+        }
+        .square{ width: 100px;height: 100px; }
+
+        .box1{
+            background-color: blue;
+            border: 2px solid yellow;
+            text-align: center;
+            /* transition-property: all;
+            transition-duration: 5000ms;
+            transition-delay: 5s; 
+            transition-timing-function: ease; */
+
+            transition: 5000ms 3s all ease;
+        }
+
+        .box1:hover{
+            background-color: red;
+            border: 2px solid blue;
+            transform: rotate(360deg) scale(1.5) skew(180deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Working With CSS3 Transitions</h1>
+
+    <div class="square box1">box1</div>
+    <div class="square box2">box2</div>
+    <div class="square box3">box3</div>
+    <div class="square box4">box4</div>
+</body>
+</html>
