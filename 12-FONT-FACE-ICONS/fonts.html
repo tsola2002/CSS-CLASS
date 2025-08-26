@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Face</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+        .fancy3 {
+            font-family: "Chela One", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: "shola";
+            font-style: normal;
+            font-weight: normal;
+            src: local("shola"), url(./PlaywriteMXGuides-Regular.ttf), format(ttf);
+        }
+
+        /* OFFLINE DOWNLOADED FONT */
+        .fancy {
+            font-family: "shola";         
+        }
+
+        /* OFFLINE INSTALLED FONT */
+        .fancy2 {
+             font-family: "AguafinaScript-Regular";
+        }
+
+        .fancy4 {
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Using @Font Face</h1>
+
+    <div class="fancy">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolores deserunt quos qui. At, voluptatibus libero. Quos 
+    </div>
+
+    <p class="fancy2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ratione dignissimos id officia vel natus cupiditate sint placeat ad. Quam voluptate iusto doloremque cupiditate eius architecto ut. Ab, non ea!</p>
+
+    <p class="fancy3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ratione dignissimos id officia vel natus cupiditate sint placeat ad. Quam voluptate iusto doloremque cupiditate eius architecto ut. Ab, non ea!</p>
+
+    <p class="fancy4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ratione dignissimos id officia vel natus cupiditate sint placeat ad. Quam voluptate iusto doloremque cupiditate eius architecto ut. Ab, non ea!</p>
+
+
+</body>
+</html>

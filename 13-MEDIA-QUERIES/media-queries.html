@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        /* HEADER SECTION */
+        .top{ background-color: aqua; display: flex; }
+
+        /* MOBILE SCREEN */
+        @media screen and (min-width: 0px) and (max-width: 320px) {
+            .top{ background-color: red; }
+        }
+
+         /* TABLET SCREEN */
+        @media screen and (min-width: 321px) and (max-width: 556px) {
+            .top{ background-color: pink; }
+        }
+
+         /* LAPTOP SCREEN */
+        @media screen and (min-width: 557px) and (max-width: 768px) {
+            .top{ background-color: green; }
+        }
+
+         /* DESKTOP SCREEN */
+        @media screen and (min-width: 769px) and (max-width: 1200px) {
+            .top{ background-color: purple; }
+        }
+        .logo{ width: 40%; }
+        .links ul{ text-decoration: none; display: flex; margin: 0; }
+        .links ul li{
+            width: 60%;
+            margin: 0px 20px 0px 0px;
+            list-style: none;
+            justify-content: flex-end;
+        }
+        /* SIDEBAR SECTION */
+        .container{ display: flex; }
+        .sidebar{ background-color: blue; width: 15%; }
+        .main-content{ background-color: yellow; width: 85%; }
+
+        /* FOOTER SECTION */
+        .footer-container{ display: flex; background-color: green; justify-content: space-around; }
+
+    </style>
+</head>
+<body>
+    <header class="top">
+        <div class="logo">LOGO</div>
+        <div class="links">
+            <ul>
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            SIDEBAR
+        </aside>
+        <main class="main-content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate adipisci alias repellat, tenetur voluptatum blanditiis porro ea consequuntur mollitia veniam nemo error quos minima aliquid tempore voluptatem soluta rem necessitatibus?
+        </main>
+    </div>
+    <footer class="bottom">
+        <div class="footer-container">
+            <div class="box1">
+                <ul>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                    <li>item4</li>
+                </ul>
+            </div>
+            <div class="box2">
+                <ul>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                    <li>item4</li>
+                </ul>
+            </div>
+            <div class="box3">
+                <ul>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                    <li>item4</li>
+                </ul>
+            </div>
+            <div class="box4">
+                <ul>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                    <li>item4</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
