@@ -1,3 +1,7 @@
+body{
+  
+}
+
 .container{
     width: 1400px;
     margin: 0 auto;
@@ -8,6 +12,7 @@ header{
     /* background-color: red; */
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
 header ul{
@@ -17,10 +22,14 @@ header ul{
 
 header ul li{
     margin-left: 50px;
+
 }
 
 header ul li a{
     text-decoration: none;
+    font-family: "Google Sans Code", monospace;
+    color: #212832;
+    font-size: 17px;
 }
 
 
