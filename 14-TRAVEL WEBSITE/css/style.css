@@ -57,7 +57,36 @@ header ul li a{
     font-family: "Poppins";
     color: #5e6282;
     font-size: 16px;
+    width: 70%;
 }
+
+.button-block{
+    display: flex;
+    padding-top: 50px;
+}
+
+.find-out{
+     background-color: #febc2f;
+     border: none;
+     border-radius: 10px;
+     color: white;
+     font-family: "Open Sans";
+     font-size: 18px;
+     height: 60px;
+     width: 170px; 
+}
+
+.image-container {
+    margin-top: -13px;
+}
+
+.play-text {
+
+}
+
+
+
+
 
 
 
