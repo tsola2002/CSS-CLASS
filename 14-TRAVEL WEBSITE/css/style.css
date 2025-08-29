@@ -82,7 +82,9 @@ header ul li a{
 }
 
 .play-text {
-
+    font-family: "Poppins";
+    color: #686d77;
+    font-size: 17px;
 }
 
 
