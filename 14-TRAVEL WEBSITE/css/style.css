@@ -5,11 +5,9 @@ body{
 .container{
     width: 1400px;
     margin: 0 auto;
-    /* background-color: red; */
 }
 
 header{
-    /* background-color: red; */
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -22,15 +20,50 @@ header ul{
 
 header ul li{
     margin-left: 50px;
-
 }
 
 header ul li a{
     text-decoration: none;
-    font-family: "Google Sans Code", monospace;
+    font-family: "Google Sans Code";
     color: #212832;
     font-size: 17px;
 }
+
+/* SECTION 2: INTRO */
+.intro{
+    display: flex;
+}
+
+.mission{
+    padding-top: 50px;
+    width: 50%;
+}
+
+.destination{
+    font-family: "Poppins";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #df6951;
+    font-weight: bold;
+}
+
+.enjoyment{
+    color: #181e4b;
+    font-size: 84px;
+    font-family: Volkhov;
+}
+
+.subtext{
+    font-family: "Poppins";
+    color: #5e6282;
+    font-size: 16px;
+}
+
+
+
+
+
+
 
 
 
