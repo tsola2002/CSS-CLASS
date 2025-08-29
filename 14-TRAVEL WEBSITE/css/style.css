@@ -1,5 +1,7 @@
 body{
-  
+  background-image: url(../images/decore-bg.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container{
@@ -16,18 +18,23 @@ header{
 header ul{
     list-style: none;
     display: flex;
-
+    margin-top: 10px;
 }
 
 header ul li{
     margin-left: 50px;
 }
 
+.signup{
+    border: 1px solid #212832;
+}
+
 header ul li a{
     text-decoration: none;
     font-family: "Google Sans Code";
     color: #212832;
-    font-size: 17px;
+    font-size: 18px;
+    padding: 20px 30px;
 }
 
 /* SECTION 2: INTRO */
@@ -36,7 +43,7 @@ header ul li a{
 }
 
 .mission{
-    padding-top: 50px;
+    padding-top: 100px;
     width: 50%;
 }
 
@@ -46,12 +53,23 @@ header ul li a{
     text-transform: uppercase;
     color: #df6951;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .enjoyment{
     color: #181e4b;
     font-size: 84px;
-    font-family: Volkhov;
+    margin-top: 30px;
+    font-family: "Volkhov", serif;
+    letter-spacing: -4px;
+    line-height: 84px;
+    margin-bottom: 40px;
+}
+
+.enjoy{
+    background-image: url(../images/decore-bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .subtext{
