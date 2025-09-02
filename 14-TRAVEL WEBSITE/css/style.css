@@ -119,32 +119,31 @@ header ul li a {
   font-weight: bold;
 }
 
-.category h2{
-    font-family: "Volkhov", serif;
-    color: #181e4b;
-    font-size: 50px;
-    margin-top: 15px;
-    text-transform: capitalize;
+.category h2 {
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  font-size: 50px;
+  margin-top: 15px;
+  text-transform: capitalize;
 }
 
-.services{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
 }
-.caption{
-    color: #1e1d4c;
-    text-transform: capitalize;
-    font-family: 'Open Sans';
-    font-size: 20px;
-}
-
-.services p{
-    color: #5e6282;
-    font-family: 'Poppins';
+.caption {
+  color: #1e1d4c;
+  text-transform: capitalize;
+  font-family: "Open Sans";
+  font-size: 20px;
 }
 
-.airplane{
-    width: 111px;
+.services p {
+  color: #5e6282;
+  font-family: "Poppins";
 }
 
+.airplane {
+  width: 111px;
+}
