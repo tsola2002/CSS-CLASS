@@ -133,5 +133,18 @@ header ul li a {
     padding-top: 50px;
 }
 .caption{
-    
+    color: #1e1d4c;
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    font-size: 20px;
 }
+
+.services p{
+    color: #5e6282;
+    font-family: 'Poppins';
+}
+
+.airplane{
+    width: 111px;
+}
+
