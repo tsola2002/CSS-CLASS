@@ -129,21 +129,26 @@ header ul li a {
 
 .services {
   display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
+  justify-content: space-around;
+  padding-top: 20px;
+  gap: 20px;
 }
 .caption {
   color: #1e1d4c;
   text-transform: capitalize;
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .services p {
   color: #5e6282;
   font-family: "Poppins";
+  padding: 0 60px;
 }
 
 .airplane {
   width: 111px;
+}
+
+.offer{
 }
